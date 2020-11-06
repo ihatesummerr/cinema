@@ -124,6 +124,8 @@ namespace Cinema.Win
                 button1.Enabled = false;
                 dataGridView1.DataSource = null;
                 dataGridView1.Rows.Clear();
+                dataGridView2.DataSource = null;
+                dataGridView2.Rows.Clear();
                 button1.Enabled = true;
                 connected = false;
                 button1.Text = "Подключиться";
