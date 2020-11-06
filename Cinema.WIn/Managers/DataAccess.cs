@@ -195,6 +195,18 @@ namespace Cinema.Win
             }
         }
 
+        public static bool FindUser(string login)
+        {
+            using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString()))
+            {
+                string sql = @"SELECT * FROM users WHERE Username = @Login";
+
+                var output = cnn.Query<UserModel>(sql, new { Login = login });
+                return output.ToList().Count == 1 ? true : false;
+
+            }
+        }
+
         
 
 

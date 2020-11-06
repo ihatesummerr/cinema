@@ -3,9 +3,12 @@ using System;
 namespace Cinema.Win
 {
 
-    public class UserModel
+    public interface UserModel
     {
-        
+
+        public string Username { get; set; }
+        public Privilegies Privilege { get; set; }
+
     }
 
 }
