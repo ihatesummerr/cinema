@@ -17,7 +17,7 @@ namespace Cinema.Win
         private Form _activeChildForm = null;
         //Активный дочерная панель, по умолчанию = Null
         private Control _activeChildBar = null;
-        //Публичный экземпляр главной формы
+        //Экземпляр главной формы
         public static MainForm Instance;
         //Список жанров
         private List<string> Genres;
