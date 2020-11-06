@@ -99,6 +99,7 @@
     </Compile>
     <Compile Include="Models\AfficheModel.cs" />
     <Compile Include="Models\MovieModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource.Designer.cs">
